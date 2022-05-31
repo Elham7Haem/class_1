@@ -1,3 +1,5 @@
 data(iris)
 head(iris)
 summary(iris)
+library(tidyverse)
+iris |> select(Petal.Width)
